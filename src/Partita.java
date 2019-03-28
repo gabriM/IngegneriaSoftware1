@@ -4,7 +4,7 @@
  * In particolare definisce:
  *
  * genere, indica se i partecipanti sono maschi o femmine;
- * fasciaEta, indica l'etÃ  massima e minima per partecipare all'evento;
+ * fasciaEta, indica l'età  massima e minima per partecipare all'evento;
  *
  *
  * @author Matteo Gusmini
@@ -15,7 +15,7 @@ public class Partita extends Categoria {
 
 	/*Attributi*/
 	private Campo genere=new Campo("Genere","Indica se i partecipanti sono maschi o femmine",true);
-	private Campo fasciaEta=new Campo("Fascia di etï¿½","Indica l'etï¿½ massima e minima per partecipare all'evento",true);
+	private Campo fasciaEta=new Campo("Fascia di età","Indica l'età massima e minima per partecipare all'evento",true);
 
 	/*Costruttori*/
 	/**
@@ -41,8 +41,8 @@ public class Partita extends Categoria {
 		return genere;
 	}
 	/**
-	 * Ritorna la fascia di etÃ  dei partecipanti
-	 * @return la fascia di etÃ  dei partecipanti
+	 * Ritorna la fascia di età  dei partecipanti
+	 * @return la fascia di età  dei partecipanti
 	 *
 	 * @author Matteo Gusmini
 	 */
@@ -61,8 +61,8 @@ public class Partita extends Categoria {
 		this.genere = genere;
 	}
 	/**
-	 * Permette di cambiare la fascia di etÃ  dei partecipanti
-	 * @param fasciaEta la fascia di etÃ  dei partecipanti
+	 * Permette di cambiare la fascia di età  dei partecipanti
+	 * @param fasciaEta la fascia di età  dei partecipanti
 	 *
 	 * @author Matteo Gusmini
 	 */

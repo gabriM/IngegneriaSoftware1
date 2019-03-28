@@ -5,7 +5,7 @@
  * Un campo possiede le seguenti caratterisitiche:
  * nome;
  * descrizione;
- * obbligatoriet√† del campo;
+ * obbligatoriet‡† del campo;
  *
  * @author Gabriele Manenti
  *
@@ -21,11 +21,11 @@ public class Campo {
 
 	/*Costruttori*/
 	/**
-	 * Un campo e' costituito da nome, descrizione, obbligatoriet√† e valore riguardante una caratteristica di un evento:
+	 * Un campo e' costituito da nome, descrizione, obbligatoriet‡† e valore riguardante una caratteristica di un evento:
 	 *
 	 * @param _nome nome del campo
 	 * @param _descrizione descrizione del campo
-	 * @param _obbligatorio obbligatoriet√† del campo
+	 * @param _obbligatorio obbligatoriet‡† del campo
 	 *
 	 * @author Gabriele Manenti
 	 */
@@ -55,8 +55,8 @@ public class Campo {
 		return descrizione;
 	}
 	/**
-	 * Ritorna l'obbligatoriet√† del Campo
-	 * @return se un campo √® obbligatorio o meno
+	 * Ritorna l'obbligatoriet‡† del Campo
+	 * @return se un campo Ë obbligatorio o meno
 	 *
 	 * @author Gabriele Manenti
 	 */
@@ -86,9 +86,9 @@ public class Campo {
 		this.descrizione = descrizione;
 	}
 	/**
-	 * Metodo che imposta l'obbligatoriet√† di un Campo.
+	 * Metodo che imposta l'obbligatoriet‡† di un Campo.
 	 *
-	 * @param obbligatorio l'obbligatoriet√† del campo
+	 * @param obbligatorio l'obbligatoriet‡† del campo
 	 *
 	 * @author Gabriele Manenti
 	 */

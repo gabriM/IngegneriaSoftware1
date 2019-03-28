@@ -31,10 +31,10 @@ public class Categoria {
 	private Campo titolo=new Campo("Titolo","Consiste in un nome di fantasia attribuito all'evento",false);
 	private Campo nPartecipanti=new Campo("Numero di partecipanti"," Stabilisce il numero di persone da coinvolgere nell'evento",true);
 	private Campo termineIscrizione=new Campo("Termine ultimo iscrizione","Indica l'ultimo giorno utile per iscriversi all'evento",true);
-	private Campo luogo=new Campo("Luogo","Indica l'indirizzo in cui si svolger√† l'evento oppure il punto di ritrovo",true);
+	private Campo luogo=new Campo("Luogo","Indica l'indirizzo in cui si svolger‡† l'evento oppure il punto di ritrovo",true);
 	private Campo ora=new Campo("Ora","Indica l'ora in cui i partecipanti dovranno recarisi nel luogo prestabilito",true);
-	private Campo durata=new Campo("Durata","Indica la durata in termini di numero(approssimativo)di ore e minuti, per gli eventi che si esauriscono in un sol giorno, o in termini di numero esatto di giorni, per gli eventi che occupano pi√π giorni consecutivi",false);
-	private Campo quotaIndividuale=new Campo("Quota individuale"," indica la spesa (o una stima della stessa) che ogni partecipante all'iniziativa dovr√† sostenere (si noti che la spesa pu√≤ anche essere nulla)",true);
+	private Campo durata=new Campo("Durata","Indica la durata in termini di numero(approssimativo)di ore e minuti, per gli eventi che si esauriscono in un sol giorno, o in termini di numero esatto di giorni, per gli eventi che occupano pi˘ giorni consecutivi",false);
+	private Campo quotaIndividuale=new Campo("Quota individuale"," indica la spesa (o una stima della stessa) che ogni partecipante all'iniziativa dovr‡† sostenere (si noti che la spesa puÚ anche essere nulla)",true);
 	private Campo compresoQuota=new Campo("Compreso nella quota"," indica tutte le voci di spesa comprese nell'ammontare indicato nella 'Quota individuale'",false);
 	private Campo dataFine=new Campo("Data conclusiva"," Indica la data di fine dell'evento",false);
 	private Campo oraFine=new Campo("Ora conclusiva"," Indica l'ora di fine dell'evento",false);
@@ -139,7 +139,7 @@ public class Categoria {
 		return quotaIndividuale;
 	}
 	/**
-	 * Ritorna ci√≤ che √® compreso nella quota individuale
+	 * Ritorna ciÚ≤ che Ë compreso nella quota individuale
 	 * @return compreso nella quota individuale
 	 *
 	 * @author Gabriele Manenti
