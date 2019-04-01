@@ -9,7 +9,7 @@
  *
  * @author Matteo Gusmini
  *
- * @version 4.0 1 Febbraio 2019
+ * @version 1.0 1 Febbraio 2019
  */
 public class Partita extends Categoria {
 
